@@ -1,0 +1,30 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lab6{
+    border: 2px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#tittle{
+    color: #375e97;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr{
+    color: #375e97;
+}
+
+#sub-tittle{
+    color: #9999;
+}
+
+h4{
+    font-size: 25px;
+}
+
+a{
+    color: #fb6542;
+}
