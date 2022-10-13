@@ -1,0 +1,132 @@
+html{
+    background-color: #3851;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+#link-github{
+    display: flex;
+    justify-content: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#tittle-text{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.main-box{
+    display: flex;
+    background-color: #023361;
+    border: 4px;
+    border-radius: 30px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.textos{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* CODIGO TOMADO DE https://uiverse.io/detail/alexroumi/shy-sloth-91 */
+
+#submit-button {
+    padding: 10px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 2;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 100;
+    font-size: 12px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+   
+#submit-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #0085FF;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+}
+   
+#submit-button:hover {
+    color: #e8e8e8;
+}
+   
+#submit-button:hover::before {
+    width: 100%;
+}
+
+#clean-button {
+    padding: 10px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 2;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 100;
+    font-size: 12px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+   
+#clean-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #FF0000;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+}
+   
+#clean-button:hover {
+    color: #e8e8e8;
+}
+   
+#clean-button:hover::before {
+    width: 100%;
+}
+
+
+   
