@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <p><a href="https://github.com/2022-SEMII-DESIV-G2/calderon-carlos" id="link-github" target="_blank">github.com</a></p>
+    <form action="#">
+        <div class="main-box">
+            <h1 id="tittle-text">Contador de caracteres</h1>
+            <div class="textos">
+                <label style="color: rgb(255, 255, 255);">Cadena de texto:<label>
+                <input type="text" id="user-text"></input>
+            </div>
+
+            <div class="buttons">
+                <button id="clean-button" onclick="limpiarPantalla()">Limpiar</button>
+                <button id="submit-button" onclick="contarCaracteres()" >Calcular</button>
+            </div>
+
+            <div class="answer">
+                <textarea name="answer-area" id="answer-area" cols="50" rows="9" disabled="true"></textarea>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
