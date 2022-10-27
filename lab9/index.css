@@ -1,0 +1,46 @@
+html{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f3c388;
+    height: 48rem;
+    width:30rem;
+    border-radius: 30px;
+}
+
+.bigBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.pyramid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #cce6ff;
+    font-size: 16px;
+    border: 4px;
+    border-radius: 30px;
+    height: 35rem;
+    width:25rem;
+}
+
+#pyramid{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: monospace;
+}

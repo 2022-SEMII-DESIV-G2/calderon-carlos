@@ -12,7 +12,7 @@ function contarCaracteres(){
         alert("Ingrese un texto")
     }else{
         resultado = letras.reduce((prev, cur) => ((prev[cur] = prev[cur] + 1 || 1), prev),{});
-        document.getElementById('answer-area').value = JSON.stringify(resultado);
+        document.getElementById('answer-area').value += JSON.stringify(resultado);
     }
 }
 
